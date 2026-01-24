@@ -1,6 +1,6 @@
 # work flow
 app [{payload}] -> server -> server store the payload 
-
+ 
 
 esp [check for update()] -> server -> if initiate update is available from app -> go to github and download .bin -> flash device
 after flash esp -> update firmwire version in mongo 
